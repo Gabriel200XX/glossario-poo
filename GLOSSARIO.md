@@ -9,16 +9,40 @@ class Glossario {
 }
 ```
 ## Instanciação
-A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la.
-
+A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la.  
+Exemplo de Instanciação:
 ``` Java
 public class Instanciacao {
     private Glossario glossario = new Glossario();
 }
 ```
 ## Palavra reservada "new"
+Operador utilizado para criar um objeto, instancia de uma classe.  
+Exemplo de uso:
+``` Java
+public class New {
+    private Glossario glossario = new Glossario();
+    public Instaniciacao instanciacao = new Instanciacao();
+}
+```
 ## Palavra reservada "instanceof"
+Operador usado para conferir se um objeto é de um certo tipo (classe, interface, enum, anotação), considerando toda a sua hierarquia.  
+Exemplo de uso:
+``` Java
+public class InstanceOf {
+    public boolean EhInstancia(Object obj) {
+        boolean eh = false;
+        if (obj instanceof InstanceOf) {
+            eh = true;
+        } else {
+            eh = false;
+        }
+        return eh;
+    }
+}
+```
 ## Encapsulamento
+
 ## Palavra reservada "this"
 ## Getters/Setters
 ## Palavras reservadas "public/private"
