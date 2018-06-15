@@ -1,4 +1,4 @@
-# Glossário de POO (OPP Glossary)
+# Glossário de POO (OOP Glossary)
 Este é um repositório para mostrar o Glossário de POO  
 This is a repository to show Glossary of OOP
 
