@@ -16,6 +16,13 @@ public class Instanciacao {
     private Glossario glossario = new Glossario();
 }
 ```
+## Encapsulamento
+## Getters/Setters
+## Assinatura de método
+## Sobrecarga de método
+## Escopo de classe (Class scope)
+## Escopo de objeto (Object scope)
+## Palavras reservadas "public/private"
 ## Palavra reservada "new"
 Operador utilizado para criar um objeto, instancia de uma classe.  
 Exemplo de uso:
@@ -41,15 +48,7 @@ public class InstanceOf {
     }
 }
 ```
-## Encapsulamento
-
 ## Palavra reservada "this"
-## Getters/Setters
-## Palavras reservadas "public/private"
-## Assinatura de método
-## Sobrecarga de método
-## Escopo de classe (Class scope)
-## Escopo de objeto (Object scope)
 ## Palavra reservada "final" (Reserved word "final")
 ## Relacionamento de dependência (Dependency relationship)
 ## Relacinamento de Agregação (Aggregation relationship)
