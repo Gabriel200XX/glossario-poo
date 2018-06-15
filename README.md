@@ -1,6 +1,6 @@
 # Glossário de POO (OOP Glossary)
-Este é um repositório para mostrar o Glossário de POO  
-This is a repository to show Glossary of OOP
+Este é um repositório para mostrar o Glossário de POO utilizando exemplos em Java.  
+This is a repository to show Glossary of OOP using examples in Java.
 
 ### Nós vamos ver nesse Glossário (We'll see in this glossary):
 

@@ -1,5 +1,5 @@
-## Construtor (Constructor)
-Construtor é um mecanismo que permite fazer inicializações no objeto assim que ele é declarado, com a palavra reservada "new" no Java.
+## Construtor
+Construtor é responsável por criar o objeto em memória, ou seja, instanciar a classe que foi definida, um mecanismo que permite fazer inicializações no objeto assim que ele é instanciado, com a palavra reservada "new" no Java.  
 Exemplo de Construtor:
 ``` Java
 class Glossario {
@@ -8,15 +8,22 @@ class Glossario {
     }
 }
 ```
-## Instanciação (Instanciation)
-## Palavra reservada "new" (Reserved word "new")
-## Palavra reservada "instanceof" (Reserved word "instanceof")
-## Encapsulamento (Encapsulation)
-## Palavra reservada "this" (Reserved word "this")
-## Getters/Setters (Get/Set Methods)
-## Palavras reservadas "public/private" (Reserved words "public/private")
-## Assinatura de método (Method signature)
-## Sobrecarga de método (Method overloading)
+## Instanciação
+A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la.
+
+``` Java
+public class Instanciacao {
+    private Glossario glossario = new Glossario();
+}
+```
+## Palavra reservada "new"
+## Palavra reservada "instanceof"
+## Encapsulamento
+## Palavra reservada "this"
+## Getters/Setters
+## Palavras reservadas "public/private"
+## Assinatura de método
+## Sobrecarga de método
 ## Escopo de classe (Class scope)
 ## Escopo de objeto (Object scope)
 ## Palavra reservada "final" (Reserved word "final")
