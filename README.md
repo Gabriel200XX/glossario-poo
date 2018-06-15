@@ -1,3 +1,21 @@
 # Glossário de POO (OPP Glossary)
 Este é um repositório para mostrar o Glossário de POO  
 This is a repository to show Glossary of OOP
+
+
+## Construtor
+## Instanciação  
+## Palavra reservada new  
+## Palavra reservada instanciof  
+## Encapsulamento  
+## Palavra reservada this  
+## Getters/Setters  
+## Palavra reservada public/private  
+## Assinatura de método  
+## Sobrecarga de método  
+## Escopo de classe  
+## Escopo de objeto  
+## Palavra reservada final  
+## Relacionamento de dependência  
+## Relacinamento de Agregação  
+## Relacionamento de Composição  
