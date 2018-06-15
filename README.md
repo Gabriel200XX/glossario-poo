@@ -2,7 +2,7 @@
 Este é um repositório para mostrar o Glossário de POO  
 This is a repository to show Glossary of OOP
 
-### Nós vamos ver nesse Glossário (I'll see in this glossary):
+### Nós vamos ver nesse Glossário (We'll see in this glossary):
 
 * Construtor (Constructor)
 * Instanciação (Instanciation)
