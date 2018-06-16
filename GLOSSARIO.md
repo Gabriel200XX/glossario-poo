@@ -17,6 +17,7 @@ public class Instanciacao {
 }
 ```
 ## Encapsulamento
+
 ## Getters/Setters
 ## Assinatura de método
 ## Sobrecarga de método
@@ -50,6 +51,15 @@ public class InstanceOf {
 ```
 ## Palavra reservada "this"
 ## Palavra reservada "final" (Reserved word "final")
+## Associação Simples
+É quando uma classe possui um atributo vindo de outra classe. Atributo da Classe.
+Símbolo UML "<-------->"
 ## Relacionamento de dependência (Dependency relationship)
+Ocorre quando uma classe utiliza os serviços de outra classe. Ocorre no método da classe.
+Símbolo UML "- - - - - >".
 ## Relacinamento de Agregação (Aggregation relationship)
+É quando duas classes têm uma relação todo-parte, a parte consegue existir sem o todo. Atributo da Classe.
+Símbolo UML "-------<>"
 ## Relacionamento de Composição (Composition relationship)
+É quando duas classes têm uma todo-parte, a parte não consegue existir sem o todo. Atributo da Classe.
+Símbolo UML "-------<//>"
