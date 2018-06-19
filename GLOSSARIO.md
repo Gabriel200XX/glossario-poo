@@ -17,8 +17,24 @@ public class Instanciacao {
 }
 ```
 ## Encapsulamento
-
+Um mecanismo da linguagem de programação para restringir o acesso a alguns componentes dos objetos, escondendo os dados de uma classe e tornando-os disponíveis somente através de métodos.
+Exemplo de Encapsulamento com Getters/Setters:
 ## Getters/Setters
+Estes métodos são seletores e modificadores dos atributos de sua classe. Consiste em os atributos de uma classe não poderem ser acessados diretamente.
+Exemplo de Encapsulamento com Getters/Setters:
+``` Java
+public class Encapsulamento {
+    private double pontuacao;
+    
+    public void setPontuacao(double pontuacao) {
+        this.pontuacao = pontuacao;
+    }
+    
+    public double getPontuacao() {
+        return pontuacao;
+    }
+}
+```
 ## Assinatura de método
 ## Sobrecarga de método
 ## Escopo de classe (Class scope)
