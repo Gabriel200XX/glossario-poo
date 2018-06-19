@@ -18,9 +18,8 @@ public class Instanciacao {
 ```
 ## Encapsulamento
 Um mecanismo da linguagem de programação para restringir o acesso a alguns componentes dos objetos, escondendo os dados de uma classe e tornando-os disponíveis somente através de métodos.
-Exemplo de Encapsulamento com Getters/Setters:
 ## Getters/Setters
-Estes métodos são seletores e modificadores dos atributos de sua classe. Consiste em os atributos de uma classe não poderem ser acessados diretamente.
+Estes métodos são seletores e modificadores dos atributos de sua classe. Consiste em os atributos de uma classe não poderem ser acessados diretamente.  
 Exemplo de Encapsulamento com Getters/Setters:
 ``` Java
 public class Encapsulamento {
@@ -36,9 +35,76 @@ public class Encapsulamento {
 }
 ```
 ## Assinatura de método
+Dois métodos tem a mesma assinatura se eles tiverem o mesmo nome e tipos de parâmetro, ou seha é a junção do nome do método, e os seus parâmetros tipados.
+``` Java
+public class AssinaturaMetodo {
+    public void metodo(String a) {
+    }
+    public int metodo(Int a) {
+        return 0;
+    }
+}
+```
 ## Sobrecarga de método
-## Escopo de classe (Class scope)
-## Escopo de objeto (Object scope)
+A sobrecarga de métodos (overload) é um conceito do polimorfismo que consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodos com nomes totalmente iguais em uma classe. A Sobrecarga permite que utilizemos o mesmo nome em mais de um método contanto que suas listas de argumentos sejam diferentes para que seja feita a separação dos mesmos.
+``` Java
+public class Calculadora{
+    public int calcula( int a, int b){
+        return a+b;
+    }
+
+    public double calcula( double a, double b){
+        return a+b;
+    }
+
+    public String calcula( String a, String b){
+        return a+b;
+    }
+}
+```
+## Escopo de classe
+Escopo refere-se à vida e acessibilidade de uma variável. Quão grande é o alcance depende de onde uma variável é declarada. Por exemplo, se uma variável é declarada na parte superior de uma classe, ela será acessível a todos os métodos de classe. Se for declarada num método, em seguida, só pode ser utilizada em tal método.
+``` Java
+public class Planetas {
+ 
+ // Variavel da classe é compartilhada por todos
+ public static long numeroDePlanetas;
+ 
+ // Variavel de intancias
+ private double x, y;
+ private double massa;
+ public String apelido;
+ 
+      // Construtor
+  	//  x e y são  variaveis instanciadas,
+  	//  mas newX and newY são variaveis locais
+  	//  O construtor incrementa o valor
+    public  Planetas(double novoX, double novoY, double novaMassa)
+    {
+       x = novoX;
+       y = novoY;
+ 
+       massa = novaMassa;
+   	numeroDePlanetas++;
+    }
+}
+```
+## Escopo de objeto
+Escopo do objeto é onde ele está, dentro da classe, sendo um atributo, ou dentro de um método, sendo uma variável.  
+Exemplo de uso:
+``` Java
+public class escopoObjeto{
+    private Calculadora calculadora = new Calculadora();
+    // Escopo da Classe
+    
+    public Calculadora getCalculadora() {
+        Calculadora calculadora = new Calculadora();
+        //Escopo do método
+        calculadora = this.calculadora;
+        return calculadora;
+    }
+}
+```
 ## Palavras reservadas "public/private"
 ## Palavra reservada "new"
 Operador utilizado para criar um objeto, instancia de uma classe.  
@@ -66,16 +132,16 @@ public class InstanceOf {
 }
 ```
 ## Palavra reservada "this"
-## Palavra reservada "final" (Reserved word "final")
+## Palavra reservada "final"
 ## Associação Simples
 É quando uma classe possui um atributo vindo de outra classe. Atributo da Classe.
 Símbolo UML "<-------->"
-## Relacionamento de dependência (Dependency relationship)
+## Relacionamento de dependência
 Ocorre quando uma classe utiliza os serviços de outra classe. Ocorre no método da classe.
 Símbolo UML "- - - - - >".
-## Relacinamento de Agregação (Aggregation relationship)
+## Relacinamento de Agregação
 É quando duas classes têm uma relação todo-parte, a parte consegue existir sem o todo. Atributo da Classe.
 Símbolo UML "-------<>"
-## Relacionamento de Composição (Composition relationship)
+## Relacionamento de Composição
 É quando duas classes têm uma todo-parte, a parte não consegue existir sem o todo. Atributo da Classe.
 Símbolo UML "-------<//>"
