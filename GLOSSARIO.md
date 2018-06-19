@@ -106,6 +106,15 @@ public class escopoObjeto{
 }
 ```
 ## Palavras reservadas "public/private"
+O modificador public deixará visível a classe ou membro para todas as outras classes, subclasses e pacotes do projeto Java.
+O modificador private deixará visível o atributo apenas para a classe em que este atributo se encontra.  
+Exemplos de uso:
+``` Java
+public class PublicPrivate {
+    public int atributoPublico;
+    private int atributoPrivado;
+}
+```
 ## Palavra reservada "new"
 Operador utilizado para criar um objeto, instancia de uma classe.  
 Exemplo de uso:
@@ -132,7 +141,32 @@ public class InstanceOf {
 }
 ```
 ## Palavra reservada "this"
+Utilizamos a palavra reservada "this" quando estamos trabalhando dentro de uma determinada classe e queremos fazer menção a mesma.  
+Exemplo de uso:
+``` Java
+public class This {
+   private int id;
+   public int getId() {
+      return id;
+   }
+   public void setId(int id) {
+      this.id = id;
+   }
+}
+```
 ## Palavra reservada "final"
+É um método que não pode ser sobrescrito nas subclasses.
+Usado para garantir que um determinado algoritmo não possa ser modificado pelas subclasses.  
+Exemplo de uso:
+``` Java
+class Final {
+    private int jogador;
+    public final int jogador() {
+        return jogador;
+    }
+    ...
+}
+```
 ## Associação Simples
 É quando uma classe possui um atributo vindo de outra classe. Atributo da Classe.
 Símbolo UML "<-------->"
